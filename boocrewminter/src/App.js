@@ -270,7 +270,7 @@ function App() {
                       style={{
                         textDecoration: "none",
                         color: "black",
-                        fontSize: 20,
+                        fontSize: 30,
                       }}
                       >Boo Crew NFT Smart Contract</a>
           </s.TextDescription>
