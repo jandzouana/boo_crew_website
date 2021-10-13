@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\contracts",
-    "\\src\\redux",
-    "\\src\\redux\\blockchain"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\redux\\blockchain\\blockchainActions.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
