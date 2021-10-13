@@ -76,7 +76,7 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x8815e06FC5b57Bd4d5590977a697582f19d2330e", // the address of your contract
+        to: "0x7C824d7242cc8d7C0fC73548F1241f361d762d89", // the address of your contract
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((0.035 * _amount).toString(), "ether"),
       })
@@ -167,7 +167,7 @@ function App() {
                   Dont worry, you're not missing out! You can still get Boo Crew NFTs on{" "}
                   <a style={{color: "white", textDecoration:"none"}}
                     // target={"_blank"}
-                    href={"https://testnets.opensea.io/collection/rinkeby-doodlenauts"}
+                    href={"https://testnets.opensea.io/collection/boo-crew-test"}
                   >
                     Opensea.io
                   </a>
@@ -266,7 +266,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
                       <a 
-                      href="https://rinkeby.etherscan.io/address/0x8815e06FC5b57Bd4d5590977a697582f19d2330e"
+                      href="https://rinkeby.etherscan.io/address/0x7C824d7242cc8d7C0fC73548F1241f361d762d89"
                       style={{
                         textDecoration: "none",
                         color: "#AE3995", //"black",
