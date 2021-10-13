@@ -159,13 +159,13 @@ function App() {
           >
             {Number(data.totalSupply) == 5555 ? (
               <>
-                <s.TextTitle style={{ textAlign: "center" }}>
+                <s.TextTitle style={{ textAlign: "center", fontSize: 60 }}>
                   The sale has ended.
                 </s.TextTitle>
                 <s.SpacerSmall />
-                <s.TextDescription style={{ textAlign: "center" }}>
+                <s.TextDescription style={{ textAlign: "center", fontSize: 60 }}>
                   Dont worry, you're not missing out! You can still get Boo Crew NFTs on{" "}
-                  <a
+                  <a style={{color: "white", textDecoration:"none"}}
                     // target={"_blank"}
                     href={"https://testnets.opensea.io/collection/rinkeby-doodlenauts"}
                   >
@@ -269,7 +269,7 @@ function App() {
                       href="https://rinkeby.etherscan.io/address/0x8815e06FC5b57Bd4d5590977a697582f19d2330e"
                       style={{
                         textDecoration: "none",
-                        color: "black",
+                        color: "#AE3995", //"black",
                         fontSize: 30,
                       }}
                       >Boo Crew NFT Smart Contract</a>
