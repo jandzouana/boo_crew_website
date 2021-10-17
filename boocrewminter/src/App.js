@@ -66,10 +66,10 @@ function App() {
     setFeedback("Minting your Official BooCrew NFT...");
     setClaimingNft(true);
     blockchain.smartContract.methods
-      .mint(blockchain.account, _amount)
+      //.mint(blockchain.account, _amount)
       // ********
       // You can change the line above to
-      // .whiteListMint(blockchain.account, _amount) if you want only whitelisted
+      .whiteListMint(blockchain.account, _amount) //if you want only whitelisted
       // users to be able to mint through your website!
       // And after you're done with whitelisted users buying from your website,
       // You can switch it back to .mint(blockchain.account, _amount).
@@ -108,30 +108,30 @@ function App() {
     <s.Screen style={{ backgroundColor: "var(--black)", fontSize: 40 }}>
       <s.Container flex={1} ai={"center"} style={{ padding: 24, backgroundColor: "#FFA537"}}>
         <s.TextTitle
-          style={{ display: "flex", flexDirection: "row", textAlign: "left", fontSize: 12, fontWeight: "bold", paddingRight: 10, margin: 0, 
+          style={{ display: "flex", flexDirection: "row", textAlign: "left", fontSize: 12, fontWeight: "bold", paddingRight: 10, margin: 0,
           borderStyle: "solid", borderColor: "black", borderWidth: 0,
           borderRadius: 50, textAlign: "center", justifySelf: "center", justifyContent: "center"  }}
         >
-          <a href="https://boocrew.io"><StyledImg alt={"BooCrew Logo"} 
-          src={newbanner} 
+          <a href="https://boocrew.io"><StyledImg alt={"BooCrew Logo"}
+          src={newbanner}
           style={{width: 70, height: 70, textAlign: "center"}}></StyledImg></a>
         </s.TextTitle>
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 24, paddingTop: 0 }}>
           <s.Container flex={1} jc={"center"} ai={"center"} style={{paddingTop: 0, flexDirection: "column"}}>
           <s.TextTitle
-              style={{ 
-              textAlign: "center", 
-              fontSize: 40, 
-              fontWeight: "bold", 
-              borderStyle: "solid", 
+              style={{
+              textAlign: "center",
+              fontSize: 40,
+              fontWeight: "bold",
+              borderStyle: "solid",
               borderColor: "black",}}>
                 0.035 ETH + Gas
               </s.TextTitle>
             <StyledImg alt={"BooCrew Hidden"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 5,
                     borderRadius: 0 }}/>
             <s.TextTitle
-              style={{ textAlign: "center", fontSize: 80, fontWeight: "bold", borderStyle: "solid", borderColor: "black", 
+              style={{ textAlign: "center", fontSize: 80, fontWeight: "bold", borderStyle: "solid", borderColor: "black",
               borderWidth: 0,
               paddingLeft: 100,
               paddingRight: 100,
@@ -147,12 +147,12 @@ function App() {
             flex={1}
             jc={"center"}
             ai={"center"}
-            style={{ 
-              backgroundColor: "#FFA537", 
+            style={{
+              backgroundColor: "#FFA537",
               padding: 24,
               paddingTop: 0,
-              borderStyle: "solid", 
-              borderColor: "black", 
+              borderStyle: "solid",
+              borderColor: "black",
               borderWidth: 0,
               borderRadius: 30,
               fontSize: 40 }}
@@ -220,11 +220,11 @@ function App() {
                 ) : (
                   <s.Container ai={"center"} jc={"center"} fd={"row"} style={{marginTop: 0, paddingTop: 0}}>
                     <form>
-                    I want <input 
+                    I want <input
                     id="inputBox"
-                    placeholder="#" 
-                    type="number" 
-                    min="1" 
+                    placeholder="#"
+                    type="number"
+                    min="1"
                     max="100"
                     style={{
                       fontSize: 60,
@@ -265,7 +265,7 @@ function App() {
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
-                      <a 
+                      <a
                       href="https://rinkeby.etherscan.io/address/0x7C824d7242cc8d7C0fC73548F1241f361d762d89"
                       style={{
                         textDecoration: "none",
