@@ -4,21 +4,22 @@ const path = require("path");
 const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
 const { MODE } = require(path.join(basePath, "constants/blend_mode.js"));
+const nftName = "Boo Crew";
 const description =
-  "This is the description of your NFT project, remember to replace this";
-const baseUri = "ipfs://NewUriToReplace";
+  "Boo Crew is a collection of 5,555 algorithmically generated ghosts who are simply adorable!";
+const baseUri = "ipfs://QmbDt7b481drbYtzuVxoVLpaDBuUzD6YaQ8XFwkHZLtHoF";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Costume" },
+      { name: "Mouth" },
+      { name: "Eyes" },
+      { name: "Head Accessories" },
+      { name: "Hand Accessories" },
+      //{ name: "Top lid" },
     ],
   },
 ];
@@ -28,8 +29,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 2000,
 };
 
 const text = {
@@ -47,7 +48,7 @@ const text = {
 
 // lower number, bigger pixels
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 20 / 128,
 };
 
 const background = {
@@ -65,7 +66,7 @@ const uniqueDnaTorrance = 10000;
 
 const preview = {
   thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbWidth: 200,
   imageRatio: format.width / format.height,
   imageName: "preview.png",
 };

@@ -1,6 +1,9 @@
 Useful commands:
 npm run generate
 npm run preview
+npm run rarity
+npm run pixelate
+npm run update_info
 
 # Welcome to HashLips 👄
 
