@@ -76,7 +76,7 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x7C824d7242cc8d7C0fC73548F1241f361d762d89", // the address of your contract
+        to: "0xD1D1efCA22b1832DAe23Fd326B4346A44C8ACDE7", // the address of your contract
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((0.035 * _amount).toString(), "ether"),
       })
@@ -266,7 +266,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
                       <a
-                      href="https://rinkeby.etherscan.io/address/0x7C824d7242cc8d7C0fC73548F1241f361d762d89"
+                      href="https://etherscan.io/address/0xD1D1efCA22b1832DAe23Fd326B4346A44C8ACDE7"
                       style={{
                         textDecoration: "none",
                         color: "#AE3995", //"black",
