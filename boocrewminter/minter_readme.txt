@@ -1,6 +1,6 @@
 1. Switch Doodlenauts.json ABI to your own contract's ABI
 
-2. Switch the address to your contract's addres in App.js
+2. Switch the address to your contract's addres in App.js (line 79)
 
 3. Go to blockchainActions.js and switch networkId to 1, and put in your smart contract address on line 54.
 
