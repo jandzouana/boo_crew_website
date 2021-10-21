@@ -11,7 +11,7 @@ const baseUri = "ipfs://QmbDt7b481drbYtzuVxoVLpaDBuUzD6YaQ8XFwkHZLtHoF";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 5555,
     layersOrder: [
       { name: "Background" },
       { name: "Costume" },
@@ -48,7 +48,7 @@ const text = {
 
 // lower number, bigger pixels
 const pixelFormat = {
-  ratio: 20 / 128,
+  ratio: 10 / 128,
 };
 
 const background = {
