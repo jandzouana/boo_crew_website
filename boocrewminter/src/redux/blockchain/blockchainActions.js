@@ -52,7 +52,7 @@ export const connect = () => {
         if (networkId == 1) { // IMPORTANT. ONCE YOUR CONTRACT IS ON THE MAIN NET, SWITCH THIS NUMBER TO 1.
           const SmartContractObj = new Web3EthContract(
             SmartContract,
-            "0x7C824d7242cc8d7C0fC73548F1241f361d762d89" // **IMPORTANT** PASTE CONTRACT ADDRESS HERE
+            "0xD1D1efCA22b1832DAe23Fd326B4346A44C8ACDE7" // **IMPORTANT** PASTE CONTRACT ADDRESS HERE
           );
           dispatch(
             connectSuccess({

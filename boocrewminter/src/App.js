@@ -167,7 +167,7 @@ function App() {
                   Dont worry, you're not missing out! You can still get Boo Crew NFTs on{" "}
                   <a style={{color: "white", textDecoration:"none"}}
                     // target={"_blank"}
-                    href={"https://testnets.opensea.io/collection/boo-crew-test"}
+                    href={"https://opensea.io/collection/boo-crew"}
                   >
                     Opensea.io
                   </a>
