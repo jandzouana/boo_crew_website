@@ -66,10 +66,10 @@ function App() {
     setFeedback("Minting your Official BooCrew NFT...");
     setClaimingNft(true);
     blockchain.smartContract.methods
-      //.mint(blockchain.account, _amount)
+      .mint(blockchain.account, _amount)
       // ********
       // You can change the line above to
-      .whiteListMint(blockchain.account, _amount) //if you want only whitelisted
+      //.whiteListMint(blockchain.account, _amount) //if you want only whitelisted
       // users to be able to mint through your website!
       // And after you're done with whitelisted users buying from your website,
       // You can switch it back to .mint(blockchain.account, _amount).
