@@ -7,7 +7,7 @@ const { MODE } = require(path.join(basePath, "constants/blend_mode.js"));
 const nftName = "Boo Crew";
 const description =
   "Boo Crew is a collection of 5,555 algorithmically generated ghosts who are simply adorable!";
-const baseUri = "ipfs://QmbDt7b481drbYtzuVxoVLpaDBuUzD6YaQ8XFwkHZLtHoF";
+const baseUri = "ipfs://QmZxej1FKhUYh9B47Xya9BNGpTjS1Z4QyYrCP3WKst4KiJ";
 
 const layerConfigurations = [
   {
