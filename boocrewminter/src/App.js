@@ -78,7 +78,7 @@ function App() {
         gasLimit: 285000 * _amount,
         to: "0xD1D1efCA22b1832DAe23Fd326B4346A44C8ACDE7", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.035 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.01 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -126,7 +126,7 @@ function App() {
               fontWeight: "bold",
               borderStyle: "solid",
               borderColor: "black",}}>
-                0.035 ETH + Gas
+                0.01 ETH + Gas
               </s.TextTitle>
             <StyledImg alt={"BooCrew Hidden"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 5,
                     borderRadius: 0 }}/>
